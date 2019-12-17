@@ -25,31 +25,31 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<!-- adicionado -->
-				<cloudHubDeployment>
-			      <uri>https://anypoint.mulesoft.com/</uri>
-			      <!-- <muleVersion>mule-version</muleVersion> -->
-			      <muleVersion>${app.runtime}</muleVersion>
-			      <username>vascodummy</username>
-			      <password>Vascop93</password>
-			      <applicationName>testmaven</applicationName>
-			      <environment>Sandbox</environment>
-			      <workerType>Micro</workerType>
-			      <workers>1</workers>
-			      <properties>
-			        <key>value</key>
-			      </properties>
-			  </cloudHubDeployment>
+<!-- 				adicionado -->
+<!-- 				<cloudHubDeployment> -->
+<!-- 			      <uri>https://anypoint.mulesoft.com/</uri> -->
+<!-- 			      <muleVersion>mule-version</muleVersion> -->
+<!-- 			      <muleVersion>${app.runtime}</muleVersion> -->
+<!-- 			      <username>vascodummy</username> -->
+<!-- 			      <password>Vascop93</password> -->
+<!-- 			      <applicationName>testmaven</applicationName> -->
+<!-- 			      <environment>Sandbox</environment> -->
+<!-- 			      <workerType>Micro</workerType> -->
+<!-- 			      <workers>1</workers> -->
+<!-- 			      <properties> -->
+<!-- 			        <key>value</key> -->
+<!-- 			      </properties> -->
+<!-- 			  </cloudHubDeployment> -->
 				</configuration>
-				<executions>
-					<execution>
-						<id>deploy</id>
-						<phase>deploy</phase>
-						<goals>
-							<goal>deploy</goal>
-						</goals>
-					</execution>
-				</executions>
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>deploy</id> -->
+<!-- 						<phase>deploy</phase> -->
+<!-- 						<goals> -->
+<!-- 							<goal>deploy</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
 				<!-- ate aqui-->				
 			</plugin>
         </plugins>

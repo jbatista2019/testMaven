@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="testmavenFlow" doc:id="8f123cae-14c6-42e4-8481-41959727fb9a" >
 		<http:listener doc:name="Listener" doc:id="047a6df9-39c5-4dca-a34e-0ebf79af142f" config-ref="HTTP_Listener_config" path="/testMaven"/>
-		<set-payload value='#["Luis&amp;Carlos"]' doc:name="Set Payload" doc:id="e1ae85d7-c007-47bb-9a1c-58b38d683288" />
+		<set-payload value='#["Joao&amp;Vasco"]' doc:name="Set Payload" doc:id="e1ae85d7-c007-47bb-9a1c-58b38d683288" />
 	</flow>
 </mule>

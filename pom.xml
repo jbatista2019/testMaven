@@ -25,6 +25,22 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<!-- adicionado -->
+				<cloudHubDeployment>
+			      <uri>https://anypoint.mulesoft.com/</uri>
+			      <!-- <muleVersion>mule-version</muleVersion> -->
+			      <muleVersion>mule-version</muleVersion>
+			      <username>vascodummy</username>
+			      <password>Vascop93</password>
+			      <applicationName>testmaven</applicationName>
+			      <environment>Sandbox</environment>
+			      <workerType>Micro</workerType>
+			      <workers>1</workers>
+			      <properties>
+			        <key>value</key>
+			      </properties>
+			  </cloudHubDeployment>
+				<!-- ate aqui-->
 				</configuration>
 			</plugin>
         </plugins>

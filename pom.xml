@@ -27,13 +27,13 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-			      <username>${username}</username>
-			      <password>${password}</password>
-			      <applicationName>${application.name}</applicationName>
-			      <muleVersion>${mule.version}</muleVersion>
-			      <environment>${environment}</environment>
-			      <workerType>${worker.type}</workerType>
-			      <workers>${workers}</workers>
+			      <username>vascodummy</username>
+			      <password>Vascop93</password>
+			      <applicationName>testmaven</applicationName>
+			      <muleVersion>${app.runtime}</muleVersion>
+			      <environment>Sandbox</environment>
+			      <workerType>Micro</workerType>
+			      <workers>1</workers>
 			      <objectStoreV2>true</objectStoreV2>
 			  </cloudHubDeployment>
 				</configuration>

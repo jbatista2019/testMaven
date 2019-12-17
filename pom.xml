@@ -29,7 +29,7 @@
 				<cloudHubDeployment>
 			      <uri>https://anypoint.mulesoft.com/</uri>
 			      <!-- <muleVersion>mule-version</muleVersion> -->
-			      <muleVersion>mule-version</muleVersion>
+			      <muleVersion>${app.runtime}</muleVersion>
 			      <username>vascodummy</username>
 			      <password>Vascop93</password>
 			      <applicationName>testmaven</applicationName>
@@ -42,6 +42,15 @@
 			  </cloudHubDeployment>
 				<!-- ate aqui-->
 				</configuration>
+				<executions>
+					<execution>
+						<id>deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
         </plugins>
 	</build>

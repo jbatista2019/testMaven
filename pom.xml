@@ -40,7 +40,6 @@
 			        <key>value</key>
 			      </properties>
 			  </cloudHubDeployment>
-				<!-- ate aqui-->
 				</configuration>
 				<executions>
 					<execution>
@@ -51,6 +50,7 @@
 						</goals>
 					</execution>
 				</executions>
+				<!-- ate aqui-->				
 			</plugin>
         </plugins>
 	</build>
